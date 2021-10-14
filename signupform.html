@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head><title>Subscribe Form</title>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="signupnav.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <style type="text/css">
+  div.elem-group {
+  margin: 40px 0;
+}
+
+label {
+  display: block;
+  font-family: 'Calibri';
+  padding-bottom: 4px;
+  font-size: 1.25em;
+}
+
+input, select, textarea {
+  border-radius: 2px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 5px 2px;  
+  font-size: 1.10em;
+  font-family: 'Calibri';
+  width: 500px;
+  padding: 8px;
+}
+
+textarea {
+  height: 200px;
+}
+
+button {
+  height: 50px;
+  background: white;
+  color: black;
+  border: 2px solid black;
+  font-size: 1.20em;
+  font-family: 'Calibri';
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  border: 2px solid black;
+}
+
+
+
+  </style>
+</head>
+<body>
+<nav>
+  <ul class="menu">
+    <a href="webtmpl.html#home" class="btn">Home</a>
+    <a href="webtmpl.html#about" class="btn">About</a>
+    <a href="webtmpl.html#work" class="btn">Our Work</a>
+    <a href="webtmpl.html#contact" class="btn">Contact</a>
+  </ul>
+</nav>
+
+<form action="subscription.php" method="post">
+  <div class="elem-group">
+    <label for="name">Your Name</label>
+    <input type="text" id="name" name="visitor_name" placeholder="John Doe" pattern=[A-Z\sa-z]{3,20} required>
+  </div>
+  <div class="elem-group">
+    <label for="email">Your E-mail</label>
+    <input type="email" id="email" name="visitor_email" placeholder="john.doe@email.com" required>
+  </div>
+  <div class="elem-group">
+    <label for="payment-selection">Choose Prefered Payment Method:</label>
+    <select id="payment-selection" name="payment_method" required>
+        <option value="">Select Payment Method</option>
+        <option value="FastPay">FastPay</option>
+        <option value="AsiaHawala">AsiaHawala</option>
+        <option value="NassPay">NassPay</option>
+        <option value="ZainCash">ZainCash</option>
+    </select>
+    <div class="elem-group">
+    <label for="plan-selection">Choose a Pricing Plan:</label>
+    <select id="plan-selection" name="pricing_plan" required>
+        <option value="">Select a Pricing Plan</option>
+        <option value="$60">Basic $60</option>
+        <option value="$150">Pro $150</option>
+        <option value="$250">Premium $250</option></select>
+        </div>
+  </div>
+  <div class="elem-group">
+    <label for="phonenumber">Phone Number</label>
+    <input type="text" id="phonenumber" name="phonenumber" required placeholder="0770,0750......." pattern=[A-Za-z0-9\s]{8,60}>
+  </div>
+  <div class="elem-group">
+    <label for="message">Write your message</label>
+    <textarea id="message" name="visitor_message" placeholder="Say whatever you want. :D" required></textarea>
+  </div>
+  <button type="submit" name="submitord" >Send Order</button>
+
+</form>
+<p style="color: white"><b>Heiro Design 2021 ©</b></p>
+
+</body>
+</html>
