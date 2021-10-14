@@ -3,7 +3,7 @@
 - This website was made for my University web programming Project , The website is for Interior &amp; Exterior designers with Subscription Plans and Customer SignUp.
 - Web-Development languages I used: 
   - HTML 
-  - CSS 
+  - CSS (Some styles are from W3-Schools)
   - PHP
   
 ### Preview of the Website: 
