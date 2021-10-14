@@ -10,9 +10,14 @@
   
   ![image](https://user-images.githubusercontent.com/76783878/137340327-af27f30c-1395-42cc-91a5-b095b532cd6d.png)
 
-### Preview of the Customer Sign Up Page: 
+### Preview of the Customer Sign Up Form: 
 
 ![image](https://user-images.githubusercontent.com/76783878/137340907-a4da151a-3ef9-48d2-80b4-b9d0a9f9616c.png)
+
+### Preview of the Subscribe Form:
+
+![image](https://user-images.githubusercontent.com/76783878/137346702-6377cddc-9075-4db1-b6ef-036413110a47.png)
+
 
 - Or click the link below to see it Live!
   - http://heirodesign.000webhostapp.com/
